@@ -1,12 +1,20 @@
+import json
+from pprint import pprint
+with open('./jsonExample.json') as f:
+	data=json.load(f)
+
+pprint(data)
+
+arg1 = data["firstName"]
+arg2 = data["lastName"]
+arg3 = data["cv"]
+arg4 = data["category"]
+ 
 def matchFields():
-	#Given by HTTP POST REQUEST 
-	arg1='FancyClientName'
-	arg2="informatica"	#That's the important one (business)
-	arg3='this is my CV Im so android cute I know and PHP and C++. Byerrr R salud audiologia marketing '
-	
-	acd = [arg1, arg2, arg3.lower()];
+		
+	acd = [arg1, arg2, arg3.lower(), arg4];
 	finalArray = []
-	#Hardcoded business fields (may be in separated files) [Informatica,comercial,sanidad, turismo]
+	#Hardcoded business fields (may be in separated files) [informatica,comercial,sanidad, turismo]
 	business = {
 	'informatica':['php', 'java', 'javascript', 'js','android', 'ios','c++', ' c ', 'c#','perl','erlang','big data','sql','mysql','sqlite','.net','matlab',' r ','swift','assembly','ruby','delphi',' go ','scratch','visual basic','visualbasic'], 
 	'comercial':['marketing','e-marketing', 'social media', 'comunicacion','emprendedor','emprendedora','aspiraciones','ilusionada','ventas','immobiliaria'],
@@ -16,7 +24,7 @@ def matchFields():
 	print ('The matches are:')
 
 	#Match loop:
-	for elem in business[arg2]:
+	for elem in business[arg4]:
 		if elem in acd[2]:
 			finalArray.append(elem)
 	print (finalArray)
