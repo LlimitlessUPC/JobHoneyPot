@@ -2,7 +2,7 @@
 import PyPDF2
 
 # creating an object 
-file = open('/Users/macos/Desktop/Amel_AZZI_CV.pdf', 'rb')
+file = open('./CV.pdf', 'rb')
 
 # creating a pdf reader object
 fileReader = PyPDF2.PdfFileReader(file)
@@ -12,10 +12,8 @@ number_of_pages = fileReader.getNumPages()
 for x in range(number_of_pages):
     page = fileReader.getPage(x)
     page_content = page.extractText()
-    print page_content.decode('utf-8')
-    print '\n'
-    print x
-    print '\n'
+    print (page_content)
+    print ('\n' + str(x) + '\n')
 
 
 # print the number of pages in pdf file
