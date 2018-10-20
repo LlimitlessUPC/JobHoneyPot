@@ -1,0 +1,180 @@
+{
+   "title": "Supervisor restaurante japonés",
+   "id": "587d29765e4d008267871acbcd33ad",
+   "state": 1,
+   "creationDate": "2018-09-01T00:02:29.000+0000",
+   "updateDate": "2018-10-20T02:30:01.000+0000",
+   "city": "Barcelona",
+   "externalUrlForm": "",
+   "blocked": false,
+   "applications": 192,
+   "province": {
+      "id": 9,
+      "value": "Barcelona"
+   },
+   "experienceMin": {
+      "id": 6,
+      "value": "Al menos 2 años"
+   },
+   "category": {
+      "id": 160,
+      "value": "Turismo y restauración"
+   },
+   "subcategory": {
+      "id": 3116,
+      "value": "Restauración"
+   },
+   "studiesMin": {
+      "id": 60,
+      "value": "Ciclo Formativo Grado Superior"
+   },
+   "residence": {
+      "id": 0,
+      "value": "(Seleccionar)"
+   },
+   "country": {
+      "id": 17,
+      "value": "España"
+   },
+   "contractType": {
+      "id": 1,
+      "value": "Indefinido"
+   },
+   "journey": {
+      "id": 10,
+      "value": "Indiferente"
+   },
+   "subSegment": 22,
+   "profile": {
+      "id": "98545452515757711149795016063731703276",
+      "name": "Grace Restaurant Bcn SL",
+      "description": "Empresa de hostelería y restauración internacional, con ambicioso plan de expansión en España.
+Próximamente, abrimos restaurante en Barcelona, especializado en cocina gourmet con sabores asiáticos: Un verdadero viaje culinario y estético!",
+      "province": {
+         "id": 9,
+         "value": "Barcelona"
+      },
+      "web": "-",
+      "numberWorkers": 1,
+      "url": "-",
+      "corporateWebsiteUrl": "/grace-restaurant-bcn-sl/em-i98545452515757711149795016063731703276",
+      "websiteUrl": "",
+      "hidden": false,
+      "typeIndustry": {
+         "id": 20,
+         "value": "Hostelería y restaurantes"
+      },
+      "country": {
+         "id": 17,
+         "value": "España"
+      },
+      "corporateResponsive": false,
+      "showCorporativeHeader": false,
+      "clientId": 1728218544048
+   },
+   "cityPD": 7824,
+   "zipCode": "08004",
+   "latitude": 0,
+   "longitude": 0,
+   "exactLocation": false,
+   "department": "",
+   "vacancies": 1,
+   "minRequirements": "Requisitos:
+
+- Gestión de rango y, en ausencia del director, de la sala a nivel de operativa diaria.
+
+- Apoyar al director en la supervisión del personal y la correcta implementación de los estándares de la compañía.
+
+- Asegurar que los check-list diarios y semanales, así como las tareas de apertura y cierre, se cumplimentan correctamente.
+
+- Formar al equipo y apoyar al director en la motivación del equipo para alcanzar los objetivos marcados.
+
+- Coordinación y organización de su personal para que el local se encuentre cada día en óptimas condiciones de limpieza.
+
+- Gestión de caja y aperturas y cierres del local.
+
+Buscamos a alguien acostumbrado a trabajar en equipo y bajo presión, con ambición y capacidad de superación y potencial para llegar a ser responsable de la unidad.",
+   "description": "Buscamos un SUPERVISOR / JEFE DE SALA para restaurante de comida japonesa con al menos 2 años de experiencia en el puesto requerido, o similar. Se valorará experiencia en restaurantes de comida asiática o japonesa.
+
+Requisitos:
+
+- Gestión de rango y, en ausencia del director, de la sala a nivel de operativa diaria.
+
+- Apoyar al director en la supervisión del personal y la correcta implementación de los estándares de la compañía.
+
+- Asegurar que los check-list diarios y semanales, así como las tareas de apertura y cierre, se cumplimentan correctamente.
+
+- Formar al equipo y apoyar al director en la motivación del equipo para alcanzar los objetivos marcados.
+
+- Coordinación y organización de su personal para que el local se encuentre cada día en óptimas condiciones de limpieza.
+
+- Gestión de caja y aperturas y cierres del local.
+
+Buscamos a alguien acostumbrado a trabajar en equipo y bajo presión, con ambición y capacidad de superación y potencial para llegar a ser responsable de la unidad.",
+   "desiredRequirements": "",
+   "commissions": "",
+   "contractDuration": "",
+   "referenceId": "",
+   "detailedStudiesId": 423,
+   "studying": false,
+   "showPay": false,
+   "schedule": "",
+   "jobLevel": {
+      "id": 5,
+      "value": "Mando intermedio"
+   },
+   "staffInCharge": {
+      "id": 3,
+      "value": "6 - 10"
+   },
+   "hasKillerQuestions": 1,
+   "hasOpenQuestions": 0,
+   "upsellings": {
+      "highlightColor": false,
+      "highlightUrgent": false,
+      "highlightHomeMonth": false,
+      "highlightHomeWeek": false,
+      "highlightSubcategory": false,
+      "highlightLogo": false,
+      "highlightStandingOffer": false
+   },
+   "epreselec": false,
+   "fiscalAddress": "Carrer Sicilia 326, 4-2, 08025 BARCELONA, BARCELONA, España",
+   "shouldAskExportConsent": true,
+   "exportConsentName": "::1728218544048",
+   "link": "https://www.infojobs.net/barcelona/supervisor-restaurante-japones/of-i587d29765e4d008267871acbcd33ad",
+   "active": true,
+   "archived": false,
+   "deleted": false,
+   "disponibleForFullVisualization": true,
+   "availableForVisualization": true,
+   "skillsList": [
+      {
+         "skill": "Supervisión del personal"
+      },
+      {
+         "skill": "Cierres"
+      },
+      {
+         "skill": "Caja"
+      },
+      {
+         "skill": "Gestión"
+      },
+      {
+         "skill": "Supervisión"
+      },
+      {
+         "skill": "Servicio en mesa"
+      },
+      {
+         "skill": "Atención al cliente"
+      },
+      {
+         "skill": "Trabajo en equipo"
+      },
+      {
+         "skill": "Análisis de Peligros y Puntos Críticos de Control (APPCC)"
+      }
+   ]
+}
