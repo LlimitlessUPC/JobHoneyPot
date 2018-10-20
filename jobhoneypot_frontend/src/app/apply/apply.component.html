@@ -104,29 +104,7 @@
             </div>
         </div>
         <br/>
-        <button type="submit" class="col-md-4 offset-md-4 btn btn-primary" onClick="applyFunction()"> Apply Now</button>
+        <button type="submit" class="col-md-4 offset-md-4 btn btn-primary" (click)="apply()" > Apply Now</button>
     </form>
     <br/><br/>
 </div>
-
-<script>
-function applyFunction(){
-    $.ajax({
-    type: "POST",
-    url: "http://127.0.0.1:8000/offers",
-    data: {
-       "number":1234,
-       "type":'issue',
-       "action":"show"
-    },
-    success: function(data){
-        console.log("success");
-        console.log(data);
-    },
-    failure: function(data){
-        console.log("failure");
-        console.log(data);
-    },
-});
-}
-</script>
