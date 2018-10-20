@@ -14,30 +14,50 @@
     <form>
         <div class="form-row justify-content-center">
             <div class="form-group col-md-5">
-                <label for="inputFirst">First Name </label>
+                <h3 class="tim-title" for="inputFirst">First Name </h3>
                 <input type="text" class="form-control" id="inputFirst" placeholder="First Name">
             </div>
             <div class="form-group col-md-5">
-                <label for="inputPassword4">Last Name</label>
+                <h3 class="tim-title" for="inputPassword4">Last Name</h3>
                 <input type="text" class="form-control" id="inputLast" placeholder="Last Name">
             </div>
         </div>
 
         <div class="form-row justify-content-center">
-            <div class="form-group col-md-10">
-                <label for="inputBirth">Date Of Birth</label>
+            <!----<div class="form-group col-md-10">
+                <h3 class="tim-title" for="inputBirth">Date Of Birth</h3>
                 <input type="date" class="form-control" id="inputBirth" placeholder="18/06/1995">
+            </div>-->
+            <div class="col-md-10">
+                <div class="tim-title">
+                    <h3>Date Of Birth</h3>
+                </div>
+                <div class="row">
+                    <div class='col-sm-6'>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <div class="input-group date">
+                                    <input class="form-control" placeholder="yyyy-mm-dd"
+                                         name="dp" [(ngModel)]="model" ngbDatepicker #d="ngbDatepicker" (click)="d.toggle()">
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
             <div class="form-group col-md-10">
-                <label for="inputEmail">Email Adress</label>
+                <h3 class="tim-title" for="inputEmail">Email Adress</h3>
                 <input type="email" class="form-control" id="inputEmail" placeholder="user@exemple.com">
             </div>
             <div class="form-group col-md-10">
-                <label for="inputPhone">Phone Number</label>
+                <h3 class="tim-title" for="inputPhone">Phone Number</h3>
                 <input type="email" class="form-control" id="inputPhone" placeholder="+213659949808">
             </div>
             <div class="form-group col-md-10">
-                <label> Upload Your CV </label> 
+                <h3 class="tim-title" > Upload Your CV </h3> 
                 <div class="custom-file">
                     <input type="file" class="custom-file-input" id="validatedCustomFile" required>
                     <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
@@ -46,7 +66,7 @@
             </div>
             
             <div class="form-group col-md-10">
-                    <label> Category </label> 
+                    <h3 class="tim-title"> Category </h3> 
                     <div class="form-check-radio">
                             <label class="form-check-label">
                               <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
@@ -86,4 +106,5 @@
         <br/>
         <button type="submit" class="col-md-4 offset-md-4 btn btn-primary"> Apply Now</button>
     </form>
+    <br/><br/>
 </div>
