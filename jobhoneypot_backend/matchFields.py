@@ -1,18 +1,17 @@
 import json
 from pprint import pprint
-with open('./jsonExample.json') as f:
-	data=json.load(f)
 
-pprint(data)
+# with open('./jsonExample.json') as f:
+# 	data=json.load(f)
+#
+# pprint(data)
 
-arg1 = data["firstName"]
-arg2 = data["lastName"]
-arg3 = data["cv"]
-arg4 = data["category"]
- 
-def matchFields():
-		
-	acd = [arg1, arg2, arg3.lower(), arg4];
+
+def matchFields(cv_text,category):
+
+	arg3 = cv_text
+	arg4 = category
+	acd = [arg3.lower(), arg4];
 	finalArray = []
 	#Hardcoded business fields (may be in separated files) [informatica,comercial,sanidad, turismo]
 	business = {
@@ -25,12 +24,12 @@ def matchFields():
 
 	#Match loop:
 	for elem in business[arg4]:
-		if elem in acd[2]:
+		if elem in acd[0]:
 			finalArray.append(elem)
 	print (finalArray)
 	return finalArray
 
-matchFields()
+#matchFields()
 
 
 
