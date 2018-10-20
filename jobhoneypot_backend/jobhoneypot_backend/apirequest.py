@@ -18,8 +18,8 @@ def request_api(url_string):
     first_page = convto_jsons(r)
 
     noOfResults = first_page["totalResults"]
-    if noOfResults > 1000:
-        return get_alljobs()
+    if noOfResults > 700:
+        noOfResults = 700
 
     job_results = requests.get(url_string + "&maxResults=" + str(noOfResults), auth=get_keys())
 
