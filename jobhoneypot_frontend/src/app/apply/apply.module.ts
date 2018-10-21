@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { ApplyComponent } from './apply.component';
 
 import { ComponentsModule } from '../components/components.module';
+import { UserService } from 'app/shared/user/user.service';
 
 @NgModule({
     imports: [
@@ -19,6 +20,6 @@ import { ComponentsModule } from '../components/components.module';
     ],
     declarations: [ ApplyComponent ],
     exports:[ ApplyComponent ],
-    providers: []
+  
 })
 export class ApplyModule { }
