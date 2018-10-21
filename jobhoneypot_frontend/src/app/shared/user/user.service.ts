@@ -30,9 +30,17 @@ export class UserService implements OnInit {
         "type":'issue',
         "action":"show"
      }
+     var body_data  = {
+       "userFirst": user.number,
+       "userLast": user.type,
+       "dateBirth": "14-04-1995",
+       "category": "informatica",
+       "cv": "worgperqmenqgemeriw android unfonfupqnwfn3q JAVA wuf3qnfqownfnq php qwfoqenfoqernofnerqoc++eqoirngoewrnguw RUbYLLL"
+     }
 
-    const body = "userFirst=" + user.number + "&userLast=" + user.type + "&dateBirth=" + user.action
 
-    return this.http.post('HTTP://127.0.0.1:8000/offers', body);
+    //const body = JSON.parse('{"userFirst": ' + user.number + ', "userLast": ' + user.type + ', "dateBirth": ' + user.action+'}')
+
+    return this.http.post('HTTP://127.0.0.1:8000/offers/', JSON.stringify(body_data));
   }
 }
