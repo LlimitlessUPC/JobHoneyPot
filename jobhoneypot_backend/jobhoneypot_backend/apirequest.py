@@ -2,6 +2,7 @@
 import requests
 import json
 
+
 # Function to get authentication keys
 def get_keys():
     return ('926e44920bba4b959ae745c8221a7db6', 'sAnEd8eHCKST0/27j1xMEnpxBSerjUGHtevTIsfj6KJuApJ4hJ')
@@ -29,6 +30,23 @@ def get_alljobs():
     url = 'https://api.infojobs.net/api/7/offer?'
     r = requests.get(url, auth=get_keys())
     return convto_jsons(r)
+
+
+
+def get_skills(skill_category_id):
+    url = 'https://api.infojobs.net/api/1/candidate/skill?categoryId=%d' % (skill_category_id)
+    if skill_category_id is not None:
+        r = requests.get(url,auth=get_keys())
+        skills_json = convto_jsons(r)
+
+        result = []
+
+        for skill_item in skills_json:
+            result.append(skill_item['key'])
+        return result
+    else :
+        return None
+
 
 # Get Job with specific setting.
 def get_job(skill_list=None, industry=None, nationality=None):
