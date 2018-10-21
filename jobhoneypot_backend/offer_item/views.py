@@ -12,7 +12,7 @@ from jobhoneypot_backend.apirequest import get_job
 @csrf_exempt
 def load_offers(request):
     #return HttpResponse("Hello World")
-    json_input = data= json.load(request)
+    json_input = json.load(request)
     skill_list = matchFields.matchFields(json_input['cv'],json_input['category'])
     offers_output = get_job(skill_list)
     print("Offers Output")
